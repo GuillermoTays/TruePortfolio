@@ -76,8 +76,8 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        {/* <div className="flex gap-4 mt-4">
-          <a
+        <div className="flex gap-4 mt-4">
+          {/* <a
             href="https://github.com/guillermotays"
             target="_blank"
             rel="noopener noreferrer"
@@ -90,15 +90,15 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <FaLinkedin size={32} color="white" />
-          </a>
+          </a> */}
           <a
-            href="mailto:guillermotays14@gmail.com"
+            href="mailto:guillermotaystrue@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGoogle size={32} color="white" />
           </a>
-        </div> */}
+        </div>
 
         <form
           ref={formRef}
